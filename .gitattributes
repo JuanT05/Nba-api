@@ -1,0 +1,8 @@
+# Ignorar archivos generados automáticamente para estadísticas
+*.db linguist-generated=true
+*.sqlite3 linguist-generated=true
+*.pyc linguist-generated=true
+__pycache__/* linguist-generated=true
+
+# Asegurar formato de texto para Python
+*.py text eol=lf
